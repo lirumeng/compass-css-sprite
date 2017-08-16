@@ -1,0 +1,9 @@
+@charset "utf-8";
+// 配置sprite的布局方式
+$share-layout: horizontal;
+// 自动输出尺寸
+// $share-sprite-dimensions: true;
+
+@import "compass/utilities/sprites";
+@import "share/*.png";
+@include all-share-sprites;
